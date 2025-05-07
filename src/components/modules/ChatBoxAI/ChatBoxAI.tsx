@@ -114,7 +114,9 @@ const ChatBoxAI: React.FC = () => {
                     sentTime: message.sentTime,
                     sender: message.sender,
                     direction:
-                      message.sender === 'ChatGPT' ? 'incoming' : 'outgoing',
+                      message.sender === 'ChatGPT Bot1'
+                        ? 'incoming'
+                        : 'outgoing',
                     position:
                       message.sender === 'ChatGPT' ? 'normal' : 'single',
                   }}
