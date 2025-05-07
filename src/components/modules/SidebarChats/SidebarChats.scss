@@ -1,0 +1,78 @@
+@use '../../../../src/assets/styles/variables' as v;
+
+.sidebar-chats {
+  &.dark-mode {
+    .header-chats {
+      .header-chats__title {
+        color: #e1e9f1;
+      }
+    }
+    .conversation-list {
+      .conversation-list__title {
+        color: #e1e9f1;
+      }
+      .conversation-list__result {
+        .conversation-btn {
+          &--active {
+            background-color: #36404a;
+          }
+        }
+      }
+    }
+  }
+
+  .header-chats {
+    padding: 24px 24px 0;
+
+    .header-chats__title {
+      color: v.$text-color;
+      font-size: 21px;
+      font-weight: 600;
+      margin: 0 0 24px;
+    }
+
+    .search-box {
+      margin-bottom: 16px;
+    }
+  }
+
+  .chats__carousel {
+    padding: 0 24px 24px;
+  }
+
+  .conversation-list {
+    padding: 0 0 0 8px;
+
+    .spin.loading {
+      display: flex;
+      justify-content: center;
+    }
+
+    .conversation-list__title {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 0 16px;
+      margin-bottom: 16px;
+      line-height: 1.2;
+      color: v.$text-color;
+    }
+
+    .conversation-list__result {
+      padding-right: 8px;
+      height: calc(100vh - 280px);
+      overflow: auto;
+
+      .conversation-btn {
+        width: 100%;
+        padding: 0;
+        background-color: unset;
+        border: unset;
+        text-align: unset;
+        box-shadow: unset;
+        &--active {
+          background-color: v.$card-background-hover;
+        }
+      }
+    }
+  }
+}

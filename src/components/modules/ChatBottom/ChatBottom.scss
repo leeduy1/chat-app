@@ -1,0 +1,106 @@
+@use '../../../assets/styles/variables' as v;
+
+.chat-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 0.5px solid rgba($color: #495057, $alpha: 0.1);
+
+  .type-chat {
+    width: 80%;
+    .type-chat__input {
+      outline: none;
+      border-radius: 0.4rem;
+      font-weight: 400;
+      line-height: 1.5;
+      background-color: #e3eaf2;
+      border: 1px solid transparent;
+      &::placeholder {
+        color: #686875;
+      }
+    }
+  }
+
+  .chat-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex: 0 0 auto;
+    width: auto;
+    .choose-emoji {
+      height: 100%;
+      width: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .EmojiPickerReact {
+        height: 338px;
+        width: 282px;
+        position: fixed;
+        z-index: 2;
+        bottom: 23px;
+        right: 230px;
+        &.epr-search-container input.epr-search:focus {
+          border: 1px solid v.$button-hover-border;
+        }
+      }
+      .custom-send-icon {
+        font-size: 16px;
+        width: 16px;
+        height: 16px;
+        color: #7269ef;
+      }
+    }
+    .attached-file,
+    .attached-images {
+      .general-btn {
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        border-radius: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+
+        .custom-send-icon {
+          font-size: 16px;
+          width: 16px;
+          height: 16px;
+          color: #7269ef;
+        }
+      }
+    }
+    .send-chat {
+      .send-chat__btn {
+        border: none;
+        height: 100%;
+        border-radius: 0.4rem;
+        padding: 0.5rem 1rem;
+        box-shadow: none;
+
+        .custom-send-chat {
+          width: 16px;
+          height: 16px;
+          font-size: 16px;
+        }
+      }
+
+      svg[data-icon='send'] {
+        color: #fff;
+      }
+    }
+  }
+}
+.ant-input.type-chat__input {
+  &:hover,
+  &:focus {
+    box-shadow: unset;
+    border: 1px solid v.$button-hover-border;
+  }
+}
+.EmojiPickerReact .epr-search-container input.epr-search:focus {
+  border: 1px solid v.$button-hover-border;
+}

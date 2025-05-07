@@ -1,0 +1,298 @@
+{
+  "common": {
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "normal-error-message": "An error occurred!",
+    "edit": "Edit",
+    "update": "Update",
+    "action": "Action",
+    "another-action": "Another action",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team"
+  },
+  "languages": {
+    "title": "Language",
+    "en": "English",
+    "vi": "Vietnamese"
+  },
+  "notification": {
+    "login": {
+      "success": "Logged in successfully!",
+      "error": "Login failed!",
+      "warning": "You need to verify your account!"
+    },
+    "logout": {
+      "success": "Logout successfully!",
+      "error": "Logout failed!"
+    },
+    "register": {
+      "success": "Sign up successfully. OTP has been sent to email!",
+      "error": "Sign up failed!"
+    },
+    "forgot-password": {
+      "success": "Email link sent successfully!",
+      "error": "Sending link to email failed!"
+    },
+    "reset-password": {
+      "success": "Password update successful",
+      "error": "Password update successful"
+    }
+  },
+  "home": {
+    "title": "Welcome to my Chat App",
+    "sub-title": "It's easy talking to your friend with RVK Chat App",
+    "login-title": "Signin",
+    "register-title": "Signup",
+    "try-title": "Try It Now",
+    "group-chat": "Group Chat",
+    "video-call": "Video Call",
+    "file-sharing": "File Sharing",
+    "privacy": "Privacy and Security"
+  },
+  "login": {
+    "title": "Sign in",
+    "sub-title": "Sign in to continue to ChatApp",
+    "username-label": "Username",
+    "username-placeholder": "Enter your username",
+    "username-error-message": "Please enter your username!",
+    "password-label": "Password",
+    "password-placeholder": "Enter your password",
+    "password-error-message": "Please enter your password!",
+    "forgot-password": "Forgot password?",
+    "remember-label": "Remember me",
+    "ask-acount": "Don't have an account? ",
+    "link-title": "Signup now",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team"
+  },
+  "register": {
+    "title": "Sign up",
+    "sub-title": "Get your ChatApp account now",
+    "email-label": "Email",
+    "email-placeholder": "Enter email",
+    "error-required-message": "Required!",
+    "email-error-type-message": "Invalid email!",
+    "username-label": "Username",
+    "username-placeholder": "Enter username",
+    "username-no-whitespace": "Username does not allow space!",
+    "password-label": "Password",
+    "password-placeholder": "Enter password",
+    "terms-title": "By registering you agree to the ChatApp ",
+    "terms-link": "Terms of Use",
+    "ask-account": "Already have an account? ",
+    "link-title": "Signin",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team",
+    "error-exist-message": "{{first}}{{second}} already exist!"
+  },
+  "dashboard": {
+    "navbar": {
+      "notifications": "Notifications",
+      "profile": "Profile",
+      "chat": "Chats",
+      "groups": "Groups",
+      "contacts": "Contacts",
+      "search": "Search",
+      "invitation": "Invitation list",
+      "settings": "Settings",
+      "chat-bot": "Chat bot AI",
+      "dark-light": "Dark / Light Mode",
+      "user-menu": {
+        "profile": "Profile",
+        "setting": "Settings",
+        "logout": "Logout"
+      }
+    },
+    "sidebar": {
+      "profile": {
+        "heading": "My Profile",
+        "status": {
+          "online": "Online",
+          "offline": "Offline",
+          "busy": "Busy"
+        },
+        "about": "About",
+        "name": "Name",
+        "email": "Email",
+        "time": "Time",
+        "location": "Location",
+        "attached-file": "Attached Files"
+      },
+      "search-user": {
+        "title": "Search Users",
+        "search-placeholder": "Search users...",
+        "result-title": "Result",
+        "add": "Add",
+        "cancel": "Cancel",
+        "accept": "Accept"
+      },
+      "invitation": {
+        "invitation-title": "Invitation List"
+      },
+      "chats": {
+        "title": "Chats",
+        "search-placeholder": "Search messages or users",
+        "typing": "Typing",
+        "recent": "Recent"
+      },
+      "groups": {
+        "title": "Groups",
+        "search-placeholder": "Enter Group Name",
+        "group-add-tooltip": "Create group",
+        "modal-title": "Create New Group",
+        "modal-name-label": "Group Name",
+        "modal-name-placeholder": "Enter Group Name",
+        "modal-members-label": "Group Members",
+        "select-members": "Select Members",
+        "contacts": "Contacts",
+        "modal-desc-label": "Description",
+        "modal-desc-placeholder": "Enter Description",
+        "btn-close": "Close",
+        "btn-create": "Create Group",
+        "create-conversation": {
+          "success": "New conversation created successfully!"
+        }
+      },
+      "contacts": {
+        "title": "Contacts",
+        "search-contacts": "Search user...",
+        "add-contacts": "Add Contacts",
+        "email-placeholder": "Enter email",
+        "invatation-mess": "Invatation Messages",
+        "mess-placeholder": "Enter Message",
+        "btn-close": "Close",
+        "btn-invite": "Invite Contacts",
+        "menu-share": "Share",
+        "menu-block": "Block",
+        "menu-remove": "Remove"
+      },
+      "settings": {
+        "title": "Settings",
+        "available": "Available",
+        "busy": "Busy",
+        "account-details-title": "Account details",
+        "account-name": "Name",
+        "account-email": "Email",
+        "account-location": "Location",
+        "account-phone": "Phone",
+        "account-description": "Description",
+        "privacy-title": "Privacy",
+        "privacy-profile-photo": "Profile photo",
+        "privacy-last-seen": "Last seen",
+        "privacy-status": "Status",
+        "privacy-read-receipts": "Read receipts",
+        "privacy-groups": "Groups",
+        "btn-everyone": "Everyone",
+        "btn-selected": "Selected",
+        "btn-nobody": "Nobody",
+        "security-title": "Security",
+        "show-security-notification": "Show security notification",
+        "help-title": "Help",
+        "help-faq": "FAQS",
+        "help-contact": "Contacts",
+        "help-terms": "Terms & Privacy policy",
+        "success": "successful",
+        "update-success": "Update profile successful",
+        "error": "Error",
+        "update-error": "Update failed!",
+        "btn-save": "Save change",
+        "btn-cancel": "Cancel"
+      }
+    },
+    "chat-overlay": "Select a chat or start a new one",
+    "chat-ui": {
+      "chat-header": {
+        "search": "Search",
+        "search-dropdown": "Search...",
+        "voice-call": "VoiceCall",
+        "video-call": "VideoCall",
+        "user-info": "UserInfo",
+        "action-chat-menu": {
+          "archive": "Archive",
+          "mute": "Mute",
+          "delete": "Delete"
+        },
+        "setting": "Settings",
+        "chat-call": {
+          "start-voice-call": "Start Audio Call",
+          "start-video-call": "Start Video Call"
+        }
+      },
+      "chat-main": {
+        "chat-bubble-menu": {
+          "copy": "Copy",
+          "muted": "Mute",
+          "forward": {
+            "title-btn": "Forward",
+            "title": "Forward to..."
+          },
+          "delete": "Delete"
+        }
+      },
+      "chat-bottom": {
+        "enter-message": "Enter Message, @",
+        "emoji": "Emoji",
+        "attached-file": "Attached-File",
+        "attached-image": "Images",
+        "error-create-conversation": "Error Create Conversation"
+      },
+      "user-info-chat": {
+        "active": "Online",
+        "about": {
+          "title": "About",
+          "name": "Name",
+          "time": "Time",
+          "location": "Location"
+        },
+        "attached-file": "Attached File"
+      }
+    }
+  },
+  "verify-account": {
+    "receive-otp": "OTP has been sent to email!",
+    "check-otp-error": "OTP code is incorrect!",
+    "check-otp-success": "Authentication successful!",
+    "required-active": "You need to verify your account!",
+    "activated": "Your account has been activated before!",
+    "has-six-character": "You must enter a sufficient number of characters!",
+    "title": "Verification",
+    "sub-title": "Enter the verification code we just sent you on your email address",
+    "description": "Your OTP will expire in 60s. If you didn't receive a code!",
+    "btn-resend": "Resend",
+    "btn-reset": "Reset",
+    "btn-verify": "Verify",
+    "btn-sign-in": "Sign in",
+    "ask-account": "Wanting to use another account?",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team"
+  },
+  "popup-notification": {
+    "header": "Notifications",
+    "btn-all": "All",
+    "btn-unread": "Unread",
+    "invitation-title": "Friend request"
+  },
+  "forgot-password": {
+    "title": "Find Your Account",
+    "sub-title": "Please enter your email address to search for your account.",
+    "input-placeholder": "Enter your email address",
+    "error-required-message": "Required!",
+    "email-error-type-message": "Invalid email!",
+    "btn-cancel": "Cancel",
+    "btn-search": "Search",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team"
+  },
+  "reset-password": {
+    "title": "Reset Password",
+    "sub-title": "Please enter new password to change password.",
+    "input-placeholder": "Enter your new password",
+    "error-required-message": "Required!",
+    "btn-cancel": "Cancel",
+    "btn-completed": "Search",
+    "author-title": "© 2022 Chat App. Crafted with ",
+    "author": " by RVK Team"
+  }
+}

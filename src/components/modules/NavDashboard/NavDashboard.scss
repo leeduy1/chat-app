@@ -1,0 +1,119 @@
+@use '../../../assets/styles/variables' as v;
+
+.navbar-dash {
+  width: 75px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+  margin-right: 4px;
+  background-color: v.$white;
+  overflow-y: auto;
+
+  &.dark-mode {
+    width: 79px;
+    background-color: #36404a;
+    padding-right: 4px;
+    margin-right: 0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: v.$white;
+  }
+
+  &::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .logo__img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .navbar-dash__notification {
+    padding: 0;
+    background-color: v.$white;
+    border: unset;
+    box-shadow: unset;
+
+    &:focus {
+      background-color: transparent;
+    }
+    
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .menu-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .menu-dashboard__btn {
+      padding: 0;
+      background-color: v.$white;
+      border: unset;
+      box-shadow: unset;
+      border-radius: 10px;
+    }
+
+    .menu-dashboard__btn + .menu-dashboard__btn {
+      margin-top: 14px;
+    }
+  }
+
+  .actions-dashboard {
+    margin-bottom: 10px;
+
+    .actions-dashboard__item {
+      .btn-theme {
+        border-radius: 10px;
+        padding: 0;
+        background-color: v.$white;
+        border: unset;
+        box-shadow: unset;
+      }
+
+      .custom-avatar {
+        padding: 3px;
+        background-color: #f0eff5;
+
+        img {
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .actions-dashboard__item + .actions-dashboard__item {
+      margin-top: 14px;
+    }
+  }
+}
+
+@media (max-height: 680px) {
+  .navbar-dash {
+    & > * {
+      margin-right: -5px;
+    }
+  }
+}

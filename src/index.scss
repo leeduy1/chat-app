@@ -1,0 +1,60 @@
+@use 'assets/styles/variables' as v;
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+
+#root {
+  background: v.$background;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.5;
+  color: v.$text-color;
+  text-rendering: optimizeSpeed;
+}
+
+::-webkit-scrollbar {
+  width: 7.5px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 22px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+
+
+.cs-message--outgoing .cs-message__content {
+  background-color: v.$checkbox-bg;
+  color: v.$white;
+}
+
+.cs-message--incoming .cs-message__content {
+  background-color: #f5f7fb;
+  color: black;
+}
+
+.cs-message-input__content-editor-wrapper,
+.cs-message-input__content-editor {
+  background-color: #e3eaf2;
+  color: #495057;;
+}
+
+
+

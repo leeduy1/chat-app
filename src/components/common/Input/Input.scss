@@ -1,0 +1,25 @@
+@use '../../../assets/styles/variables' as v;
+
+.ant-input.input {
+  padding: 8px 16px;
+  height: auto;
+  font-size: 15px;
+  color: v.$text-color;
+  border: 1px solid v.$input-border;
+  border-radius: 0;
+}
+
+.ant-form-item-explain.ant-form-item-explain-connected {
+  .ant-form-item-explain-error {
+    color: v.$input-error;
+    margin-top: 2px;
+    font-size: 13px;
+  }
+}
+
+.ant-input-password.input {
+  padding: 8px 16px;
+  height: auto;
+  border: 1px solid v.$input-border;
+  border-radius: 0;
+}

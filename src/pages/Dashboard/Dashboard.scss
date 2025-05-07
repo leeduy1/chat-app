@@ -1,0 +1,12 @@
+@use '../../assets/styles/variables' as v;
+
+.dashboard-page {
+  height: 100vh;
+  display: flex;
+
+  .chat-ui {
+    flex: 1;
+    background-color: v.$white;
+    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+  }
+}

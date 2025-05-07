@@ -1,0 +1,294 @@
+{
+  "common": {
+    "error": "Lỗi",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "normal-error-message": "Có lỗi xảy ra!",
+    "edit": "Chỉnh sửa",
+    "update": "Cập nhật",
+    "action": "Hành động",
+    "another-action": "Hành động khác",
+    "author-title": "© 2022 Chat App. Thiết kế ",
+    "author": " bởi RVK Team"
+  },
+  "languages": {
+    "title": "Ngôn ngữ",
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "notification": {
+    "login": {
+      "success": "Đăng nhập thành công!",
+      "error": "Đăng nhập thất bại!",
+      "warning": "Bạn cần phải xác thực tài khoản!"
+    },
+    "logout": {
+      "success": "Đăng xuất thành công!",
+      "error": "Đăng xuất thất bại!"
+    },
+    "register": {
+      "success": "Đăng ký thành công. OTP đã được gửi đến email!",
+      "error": "Đăng ký thất bại!"
+    },
+    "forgot-password": {
+      "success": "Liên kết email được gửi thành công!",
+      "error": "Gửi liên kết đến email không thành công!"
+    },
+    "reset-password": {
+      "success": "Cập nhật mật khẩu thành công",
+      "error": "Cập nhật mật khẩu thất bại"
+    }
+  },
+  "home": {
+    "title": "Chào mừng bạn đến với ứng dụng trò chuyện của chúng tôi",
+    "sub-title": "Thật dễ dàng để nói chuyện với bạn bè của bạn qua RVK Chat App",
+    "login-title": "Đăng nhập",
+    "register-title": "Đăng ký",
+    "try-title": "Bắt đầu ngay bây giờ",
+    "group-chat": "Chat nhóm",
+    "video-call": "Cuộc gọi Video",
+    "file-sharing": "Chia sẽ File",
+    "privacy": "Riêng tư và bảo mật"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "sub-title": "Đăng nhập để sử dụng ChatApp",
+    "username-label": "Tên đăng nhập",
+    "username-placeholder": "Nhập tên của bạn",
+    "username-error-message": "Vui lòng nhập tên đăng nhập!",
+    "password-label": "Mật khẩu",
+    "password-placeholder": "Nhập mật khẩu của bạn",
+    "password-error-message": "Vui lòng nhập mật khẩu!",
+    "forgot-password": "Quên mật khẩu?",
+    "remember-label": "Duy trì đăng nhập",
+    "ask-acount": "Bạn chưa có tài khoản? ",
+    "link-title": "Đăng kí tại đây",
+    "author-title": "© 2022 Chat App. Thiết kế ",
+    "author": " bởi RVK Team"
+  },
+  "register": {
+    "title": "Đăng ký",
+    "sub-title": "Đăng ký tài khoản ChatApp ngay bây giờ",
+    "email-label": "Email",
+    "email-placeholder": "Nhập email",
+    "error-required-message": "Vui lòng nhập trường này!",
+    "email-error-type-message": "Email không hợp lệ!",
+    "username-label": "Tên đăng nhập",
+    "username-placeholder": "Nhập tên đăng nhập",
+    "username-no-whitespace": "Tên đăng nhập không được có ký tự trắng!",
+    "password-label": "Mật khẩu",
+    "password-placeholder": "Nhập mật khẩu",
+    "terms-title": "Bằng cách đăng ký bạn đồng ý với ChatApp về các ",
+    "terms-link": "Điều khoản sử dụng",
+    "ask-account": "Bạn đã có tài khoản rồi? ",
+    "link-title": "Đăng nhập",
+    "author-title": "© 2022 Chat App. Thiết kế ",
+    "author": " bởi RVK Team",
+    "error-exist-message": "{{first}}{{second}} đã tồn tại!"
+  },
+  "dashboard": {
+    "navbar": {
+      "notifications": "Thông báo",
+      "profile": "Hồ sơ",
+      "chat": "Chats",
+      "groups": "Nhóm",
+      "contacts": "Liên hệ",
+      "search": "Tìm kiếm",
+      "invitation": "Danh sách kết bạn",
+      "settings": "Cài đặt",
+      "chat-bot": "Chat bot AI",
+      "dark-light": "Sáng / Tối",
+      "user-menu": {
+        "profile": "Hồ sơ",
+        "setting": "Cài đặt",
+        "logout": "Đăng xuất"
+      }
+    },
+    "sidebar": {
+      "profile": {
+        "heading": "Thông tin của tôi",
+        "status": {
+          "online": "Đang hoạt động",
+          "offline": "Không hoạt động",
+          "busy": "Đang bận"
+        },
+        "about": "Thông tin",
+        "name": "Tên",
+        "email": "Email",
+        "time": "Thời gian",
+        "location": "Vị trí",
+        "attached-file": "File đã đính kèm"
+      },
+      "search-user": {
+        "title": "Tìm kiếm bạn bè",
+        "search-placeholder": "Nhập để tìm kiếm...",
+        "result-title": "Kết quả",
+        "add": "Thêm",
+        "cancel": "Hủy",
+        "accept": "Chấp nhận"
+      },
+      "invitation": {
+        "invitation-title": "Danh sách lời mời"
+      },
+      "chats": {
+        "title": "Nhắn tin",
+        "search-placeholder": "Tìm kiếm tin nhắn hoặc người dùng",
+        "typing": "Đang nhắn",
+        "recent": "Mới đây"
+      },
+      "groups": {
+        "title": "Nhóm",
+        "search-placeholder": "Tìm kiếm nhóm",
+        "group-add": "Thêm nhóm",
+        "modal-title": "Thêm mới nhóm",
+        "modal-name-label": "Tên nhóm",
+        "modal-name-placeholder": "Nhập tên nhóm",
+        "modal-members-label": "Tên thành viên",
+        "select-members": "Chọn các thành viên",
+        "contacts": "Liên hệ",
+        "modal-desc-label": "Mô tả",
+        "modal-desc-placeholder": "Nhập mô tả",
+        "btn-close": "Đóng",
+        "btn-create": "Thêm nhóm",
+        "create-conversation": {
+          "success": "Tạo mới cuộc hội thoại thành công!"
+        }
+      },
+      "contacts": {
+        "title": "Liên hệ",
+        "search-contacts": "Tìm kiếm người dùng...",
+        "add-contacts": "Thêm liên hệ",
+        "email-placeholder": "Nhập email",
+        "invatation-mess": "Tin nhắn mời",
+        "mess-placeholder": "Nhập tin nhắn",
+        "btn-close": "Đóng",
+        "btn-invite": "Mời liên hệ",
+        "menu-share": "Chia sẻ",
+        "menu-block": "Chặn",
+        "menu-remove": "Xóa"
+      },
+      "settings": {
+        "title": "Cài đặt",
+        "available": "Hoạt động",
+        "busy": "Đang bận",
+        "account-details-title": "Chi tiết tài khoản",
+        "account-name": "Tên",
+        "account-email": "Email",
+        "account-location": "Địa chỉ",
+        "account-phone": "Số điện thoại",
+        "account-description": "Mô tả",
+        "privacy-title": "Riêng tư",
+        "privacy-profile-photo": "Ảnh hồ sơ",
+        "privacy-last-seen": "Nhìn thấy lần cuối",
+        "privacy-status": "Trạng thái",
+        "privacy-read-receipts": "Đọc biên nhận",
+        "privacy-groups": "Nhóm",
+        "btn-everyone": "Mọi người",
+        "btn-selected": "Đã chọn",
+        "btn-nobody": "Chỉ mình tôi",
+        "security-title": "Bảo vệ",
+        "show-security-notification": "Hiển thị thông báo bảo mật",
+        "help-title": "Hỗ trợ",
+        "help-faq": "FAQS",
+        "help-contact": "Liên hệ",
+        "help-terms": "Điều khoản & Chính sách quyền riêng tư",
+        "success": "Thành công",
+        "update-success": "Cập nhật hồ sơ thành công",
+        "error": "Thất bại",
+        "update-error": "cập nhật hồ sơ thất bại",
+        "btn-save": "Lưu thay đổi",
+        "btn-cancel": "Hủy bỏ"
+      }
+    },
+    "chat-overlay": "Hãy chọn một đoạn chat hoặc bắt đầu cuộc trò chuyện mới",
+    "chat-ui": {
+      "chat-header": {
+        "search": "Tìm kiếm",
+        "search-dropdown": "Tìm kiếm...",
+        "voice-call": "Bắt đầu gọi thoại",
+        "video-call": "Bắt đầu gọi video",
+        "user-info": "Hồ sơ",
+        "action-chat-menu": {
+          "archive": "Lưu trữ",
+          "mute": "Chặn",
+          "delete": "Xóa"
+        },
+        "setting": "Cài đặt",
+        "chat-call": {
+          "start-voice-call": "Bắt đầu gọi thoại",
+          "start-video-call": "Bắt đầu gọi video"
+        }
+      },
+      "chat-main": {
+        "chat-bubble-menu": {
+          "copy": "Sao chép",
+          "muted": "Chặn",
+          "forward": {
+            "title-btn": "Chuyển tiếp",
+            "title": "Chuyển tiếp đến..."
+          },
+          "delete": "Xóa tin nhắn"
+        }
+      },
+      "chat-bottom": {
+        "enter-message": "Tin nhắn, @",
+        "emoji": "Biểu cảm",
+        "attached-file": "Đính kèm file",
+        "attached-image": "Đính kèm ảnh",
+        "error-create-conversation": "Lỗi tạo cuộc trò chuyện"
+      },
+      "user-info-chat": {
+        "active": "Hoạt động",
+        "about": {
+          "title": "Chi tiết hồ sơ",
+          "name": "Tên",
+          "time": "Thời gian",
+          "location": "Vị trí"
+        },
+        "attached-file": "Xem file phương tiện"
+      }
+    }
+  },
+  "verify-account": {
+    "receive-otp": "OTP đã được gửi đến email!",
+    "check-otp-error": "Mã OTP không đúng!",
+    "check-otp-success": "Xác thực thành công!",
+    "required-active": "Bạn cần phải kích hoạt tài khoản!",
+    "activated": "Tài khoản của bạn đã kích hoạt trước đó!",
+    "has-six-character": "Bạn phải nhập đủ số kí tự!",
+    "title": "Xác thực",
+    "sub-title": "Nhập mã xác minh chúng tôi vừa gửi cho bạn vào địa chỉ email của bạn",
+    "description": "OTP của bạn sẽ hết hạn sau 60 giây. Nếu bạn không nhận được mã!",
+    "btn-resend": "Gửi lại",
+    "btn-reset": "Nhập lại",
+    "btn-verify": "Kiểm tra",
+    "btn-sign-in": "Đăng nhập",
+    "ask-account": "Muốn sử dụng một tài khoản khác?",
+    "author-title": "© 2022 Chat App. Thiết kế ",
+    "author": " bởi RVK Team"
+  },
+  "popup-notification": {
+    "header": "Thông báo",
+    "btn-all": "Tất cả",
+    "btn-unread": "Chưa đọc",
+    "invitation-title": "Lời mời kết bạn"
+  },
+  "forgot-password": {
+    "title": "Tìm tài khoản của bạn",
+    "sub-title": "Vui lòng nhập địa chỉ email của bạn để tìm kiếm tài khoản của bạn.",
+    "input-placeholder": "Nhập địa chỉ email của bạn",
+    "error-required-message": "Vui lòng nhập email!",
+    "email-error-type-message": "Email không hợp lệ!",
+    "btn-cancel": "Hủy bỏ",
+    "btn-search": "Tìm kiếm"
+  },
+  "reset-password": {
+    "title": "Đặt lại mật khẩu",
+    "sub-title": "Vui lòng nhập mật khẩu mới để thay đổi mật khẩu.",
+    "input-placeholder": "Nhập mật khẩu mới",
+    "error-required-message": "Vui lòng nhập trường này!",
+    "btn-cancel": "Hủy bỏ",
+    "btn-completed": "Save change"
+  }
+}

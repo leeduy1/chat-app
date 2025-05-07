@@ -1,0 +1,13 @@
+@use '../../../assets/styles/variables' as v;
+
+.sidebar {
+  width: 380px;
+  height: 100vh;
+  margin-right: 4px;
+  background-color: #f5f7fb;
+  overflow: hidden;
+
+  &.dark-mode {
+    background-color: #303841;
+  }
+}

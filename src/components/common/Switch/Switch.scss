@@ -1,0 +1,51 @@
+@use '../../../assets/styles/variables' as v;
+
+.ant-switch.switch {
+  min-width: 28px;
+  width: 32px;
+  height: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-color: #f7f7f7;
+
+  .ant-switch-handle {
+    width: 13.5px;
+    height: 15.5px;
+    left: 3px;
+
+    &::before {
+      background-color: #b9b9bf;
+      box-shadow: none;
+      top: -1px;
+      bottom: 3px;
+    }
+  }
+}
+.ant-switch:focus {
+  border: 1px solid #beb9f9;
+  outline: 2px solid #ceccf9;
+
+  .ant-switch-handle {
+    &::before {
+      background-color: v.$checkbox-bg;
+      box-shadow: none;
+    }
+  }
+}
+
+.ant-switch.ant-switch-checked {
+  background-color: v.$checkbox-bg;
+
+  &:focus {
+    border: 1px solid #beb9f9;
+    outline: 2px solid #ceccf9;
+  }
+
+  .ant-switch-handle {
+    left: 16px;
+
+    &::before {
+      background-color: v.$white;
+      box-shadow: none;
+    }
+  }
+}

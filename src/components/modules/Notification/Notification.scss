@@ -1,0 +1,48 @@
+@use '../../../assets/styles/variables' as v;
+
+.notification {
+  .notification__header {
+    color: v.$text-color;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+    padding: 24px;
+  }
+
+  .notification__btn {
+    margin-left: 24px;
+    .btn-all {
+      margin-right: 8px;
+    }
+
+    .btn-all,
+    .btn-unread {
+      background-color: transparent;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 18px;
+      padding: 5px 12px;
+      color: v.$text-color;
+      box-shadow: none;
+
+      &:hover {
+        color: v.$text-color;
+      }
+    }
+
+    .btn-unread--active,
+    .btn-all--active {
+      color: #7269ef;
+      background-color: #f7f7ff;
+
+      &:hover {
+        color: #7269ef;
+      }
+    }
+  }
+
+  .invitation-list__title {
+    padding: 24px;
+    color: v.$text-color;
+  }
+}

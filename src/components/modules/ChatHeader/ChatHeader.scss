@@ -1,0 +1,122 @@
+@use '../../../assets/styles/variables' as v;
+
+.chat-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 18px;
+  gap: 12px;
+  border-bottom: 1px solid rgb(15 34 58 / 12%);
+
+  .user-info {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-info__status {
+    .status__icon {
+      color: #08d6a1;
+      font-size: 10px;
+    }
+  }
+
+  .username,
+  .user-status {
+    display: flex;
+    align-items: center;
+  }
+
+  .group-action__btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+    background-color: transparent;
+    .custom-chat-icon {
+      font-size: 20px;
+    }
+  }
+
+  .group-aciton {
+    display: flex;
+    align-items: center;
+    .search-action {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        content: 'Search';
+      }
+      .custom-chat-icon {
+        font-size: 20px;
+        svg[data-icon='search'] {
+          color: black;
+        }
+      }
+    }
+    .custom-chat-icon {
+      svg[data-icon='search'] {
+        color: black;
+      }
+      svg[data-icon='ellipsis'] {
+        color: black;
+      }
+    }
+
+    .group-action__btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .detail-actions {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .custom-chat-icon {
+        font-size: 20px;
+        svg[data-icon='ellipsis'] {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.ant-dropdown {
+  .ant-dropdown-menu {
+    padding: 0;
+    border-radius: 0.4rem;
+  }
+
+  .ant-dropdown-menu-item,
+  .ant-dropdown-menu-submenu-title {
+    padding: 0;
+    &[ant-click-animating-without-extra-node='true']::after,
+    .ant-click-animating-node {
+      box-shadow: unset;
+      animation: unset;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+.ant-btn.group-action__btn {
+  &[ant-click-animating-without-extra-node='true']::after,
+  .ant-click-animating-node {
+    box-shadow: unset;
+    animation: unset;
+  }
+  &:hover,
+  &:focus {
+    color: v.$button-hover-border;
+    background-color: transparent;
+  }
+}

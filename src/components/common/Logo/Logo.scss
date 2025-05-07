@@ -1,0 +1,17 @@
+@use '../../../assets/styles/variables' as v;
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 48px;
+
+  .logo__img {
+    height: 30px;
+  }
+
+  .app-name {
+    margin: 0;
+    color: v.$text-color;
+  }
+}

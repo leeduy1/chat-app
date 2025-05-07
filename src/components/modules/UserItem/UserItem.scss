@@ -1,0 +1,59 @@
+@use '../../../assets/styles/variables' as v;
+
+.user-item {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+
+  .user-item__avtar {
+    flex-shrink: 0;
+  }
+
+  .user-item__info {
+    flex-grow: 1;
+    overflow: hidden;
+
+    .username {
+      margin: 0;
+      color: v.$text-color;
+      font-size: 16px;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .user-location {
+      margin: 0;
+      color: v.$text-sub-color;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+
+  .user-item__action {
+    flex-shrink: 0;
+
+    .add-user-btn,
+    .cancel-user-btn {
+      color: v.$white;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+
+    .cancel-user-btn {
+      color: v.$black;
+      background-color: #d4d3f9;
+      border-color: #d4d3f9;
+
+      &:hover {
+        background-color: #a8a7e2;
+        border-color: #a8a7e2;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@use '../../../assets/styles/variables' as v;
+
+.ant-avatar.avatar {
+  color: v.$avatar-text;
+  background-color: v.$avatar-bg;
+  display: flex;
+  align-items: center;
+}
+
+.ant-popover.ant-avatar-group-popover {
+  .ant-popover-inner {
+    border-radius: 10px;
+
+    .ant-popover-inner-content {
+      display: flex;
+      padding: 8px 12px;
+    }
+  }
+}
