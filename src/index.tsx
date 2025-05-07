@@ -9,7 +9,6 @@ import 'src/i18next';
 
 import 'antd/dist/antd.css';
 import 'src/index.scss';
-import ChatBoxAI from './components/common/ChatBoxAI/ChatBoxAI';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
